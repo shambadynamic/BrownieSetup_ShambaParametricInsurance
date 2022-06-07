@@ -20,5 +20,5 @@ def main():
     print(deployer_account.address)
     insuranceContract = FireInsuranceContract[-1]
 
-    printFireData(insuranceContract, 3, deployer_account)
+    printFireData(insuranceContract, 1, deployer_account)
     printLatestCid(insuranceContract)
